@@ -52,7 +52,6 @@ nav {
 }
 
 .nav-list {
-    border: 1px solid aqua;
     width: 50vw;
     height: 5vh;
     display: flex;
@@ -68,4 +67,25 @@ nav {
     text-transform: uppercase;
     font-size: 1rem;
     letter-spacing: 0.1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-links:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4F6F52;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-links:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    
 }
