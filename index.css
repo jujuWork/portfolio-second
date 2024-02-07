@@ -32,7 +32,6 @@ nav {
 }
 
 .logo {
-    border: 1px solid black;
     width: 50vw;
     height: 5vh;
     display: flex;
@@ -45,15 +44,28 @@ nav {
 }
 
 .logo span {
-    margin: auto 0.5rem;
+    margin: 0 5px;
     font-size: 1.8rem;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 0.5rem;
+    font-weight: 600;
 }
 
-.nav-links {
+.nav-list {
     border: 1px solid aqua;
     width: 50vw;
     height: 5vh;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+.nav-links {
+    list-style: none;
+    margin-right: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    display: inline-flex;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
 }
