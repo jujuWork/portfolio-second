@@ -34,6 +34,7 @@ nav {
 .logo {
     width: 50vw;
     height: 5vh;
+    margin-left: 0;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -88,4 +89,47 @@ nav {
     transform: scaleX(1);
     transform-origin: bottom left;
     
+}
+
+/* DROPDOWN BUTTON */
+
+.dropbtn {
+    background-color: transparent;
+    color:#4F6F52;
+    padding: 16px;
+    font-size: 1.3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #4F6F52;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4F6F52;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #F9F5F6;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #4F6F52;
+}
+
+.show {
+    display: block;
 }
