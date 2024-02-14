@@ -161,17 +161,20 @@ header {
     height: 100vh;
     margin: 150px auto;
     overflow: hidden;
-    gap: 1px;
+    gap: 10px;
 }
 
 /* PROFILE PIC */
 .profile-pic {
     filter: drop-shadow(0 0 15px #4F6F52);
+    height: 30vh;
 }
 
 /* PROFILE INFO */
 
 .profile-info {
-    border: 3px solid blue;
-    height: 50vh;
+    border: 1px solid blue;
+    height: 30vh;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
 }
