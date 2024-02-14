@@ -91,6 +91,7 @@ nav {
     
 }
 
+
 /* DROPDOWN BUTTON */
 
 .dropbtn {
@@ -164,25 +165,9 @@ header {
 }
 
 /* PROFILE PIC */
-
 .profile-pic {
-    border: 3px solid red;
-    height: 50vh;
+    filter: drop-shadow(0 0 15px #4F6F52);
 }
-
-.profile-pic-item {
-    background-image: url('https://i.ibb.co/74xhcPF/profpic.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #D2E3C8;
-    width: 300px;
-    height: 40vh;
-    margin: 0 auto;
-    border: 1px solid #F9F5F6;
-    border-radius: 50%;
-    filter: drop-shadow(0px 0px 10px #4F6F52);
-}
-
 
 /* PROFILE INFO */
 
