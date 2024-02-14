@@ -70,6 +70,11 @@ nav {
     letter-spacing: 0.1rem;
     position: relative;
     cursor: pointer;
+    color: #4F6F52;
+}
+
+.nav-links:hover {
+    color: #163020;
 }
 
 .nav-links:after {
@@ -82,13 +87,12 @@ nav {
     left: 0;
     background-color: #4F6F52;
     transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    transition: transform 0.35s ease-out;
 }
 
 .nav-links:hover:after {
     transform: scaleX(1);
-    transform-origin: bottom left;
-    
+    transform-origin: bottom center;
 }
 
 
@@ -161,7 +165,7 @@ header {
     height: 100vh;
     margin: 150px auto;
     overflow: hidden;
-    gap: 10px;
+    gap: 50px;
 }
 
 /* PROFILE PIC */
@@ -173,8 +177,16 @@ header {
 /* PROFILE INFO */
 
 .profile-info {
-    border: 1px solid blue;
     height: 30vh;
     font-family: 'Space Grotesk', sans-serif;
     text-align: center;
+    margin: 1.2rem 0;
+    color: #163020;
+}
+
+/* PROFILE BUTTON */
+
+.profile-btn button {
+    padding: 8px 8px;
+    border-radius: 8px;
 }
