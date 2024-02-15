@@ -162,10 +162,10 @@ header {
     align-items: flex-start;
     flex: 1;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     margin: 150px auto;
     overflow: hidden;
-    gap: 50px;
+    gap: 8px;
 }
 
 /* PROFILE PIC */
@@ -180,7 +180,7 @@ header {
     height: 30vh;
     font-family: 'Space Grotesk', sans-serif;
     text-align: center;
-    margin: 1.2rem 0;
+    margin: 1.2rem 5rem;
     color: #163020;
 }
 
@@ -190,4 +190,10 @@ header {
     padding: 8px 8px;
     border-radius: 8px;
     font-size: 0.75rem;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
 }
