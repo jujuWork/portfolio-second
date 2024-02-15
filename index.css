@@ -5,10 +5,9 @@ html {
 }
 
 body {
-    width: 99%;
+    width: 80%;
     height: 100vh;
     background-color: #F9F5F6;
-    overflow: hidden;
     margin: 0 auto;
 }
 
@@ -155,14 +154,13 @@ nav {
 /* HEADER */
 
 header {
-    border: 1px solid orange;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     flex: 1;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     margin: 150px auto;
     overflow: hidden;
     gap: 8px;
@@ -172,6 +170,7 @@ header {
 .profile-pic {
     filter: drop-shadow(0 0 15px #4F6F52);
     height: 30vh;
+    border: none;
 }
 
 /* PROFILE INFO */
@@ -190,10 +189,25 @@ header {
     padding: 8px 8px;
     border-radius: 8px;
     font-size: 0.75rem;
+    cursor: pointer;
 }
 
 /* MAIN */
 
 main {
+    border: 1px solid red;
     display: flex;
+    background-color: rgba(134, 167, 137, 0.1);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.skill-logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: #4F6F52;
+}
+
+.skill-list {
+    
 }
