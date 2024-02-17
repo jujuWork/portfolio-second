@@ -1,22 +1,7 @@
+/* HTML CSS JS animation */
 
-/* NAVIGATION  
-
-@media screen and (max-width: 601px) {
-    .nav-list {
-        display: none;
+@media (prefers-reduced-motion: no-preference) {
+    .animate__fadeInLeftBig {
+        animation: fadeInLeftBig 1s ease;
     }
 }
-
-*/
-
-
-/* DROPDOWN QUERIES 
-@media screen and (min-width: 600px) {
-
-    .dropdown {
-        display: none;
-    }
-    
-}
-
-*/
