@@ -1,7 +1,0 @@
-/* HTML CSS JS animation */
-
-@media (prefers-reduced-motion: no-preference) {
-    .animate__fadeInLeftBig {
-        animation: fadeInLeftBig 1s ease;
-    }
-}

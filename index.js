@@ -18,17 +18,3 @@ window.onclick = function(event) {
 }
 
 //
-
-
-// HTML CSS JAVASCRIPT IMAGE animation //
-
-const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add ('animate__fadeInLeftBig');
-        }
-        
-    });
-});
-
-observer.observe(document.querySelector('.skillHtml'))
