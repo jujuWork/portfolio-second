@@ -250,11 +250,11 @@ main {
 .progressbar {
     border: 1px solid #4F6F52;
     border-radius: 10px;
-    width: 202px;
+    border: none;
+    width: 205px;
     margin: 5px auto;
     font-size: 0.75rem;
-    background-color: #F9F5F6;
-    display: block;
+    padding: 5px;
 }
 
 .progressHTML {
@@ -262,15 +262,11 @@ main {
     height: 1rem;
     transition: 0.8s ease-out;
     border-radius: 10px;
+    animation: fadeInLeft 3s linear;
 }
 
 .progressHTML:hover {
     background-color: #FC6736;
-}
-
-.progressCSS {
-    width: 70%;
-    height: 1rem;
-    transition: 0.8s ease-out;
     border-radius: 10px;
+    margin: 0;  
 }
