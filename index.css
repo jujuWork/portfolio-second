@@ -42,6 +42,7 @@ nav {
 .logo img {
     width: 2.3rem;
     color: #4F6F52;
+    background-color: transparent;
 }
 
 .logo span {
@@ -246,7 +247,30 @@ main {
     margin: 0 auto;
 }
 
-.progressbarHTML {
-    width: 100%;
-    margin
+.progressbar {
+    border: 1px solid #4F6F52;
+    border-radius: 10px;
+    width: 202px;
+    margin: 5px auto;
+    font-size: 0.75rem;
+    background-color: #F9F5F6;
+    display: block;
+}
+
+.progressHTML {
+    width: 85%;
+    height: 1rem;
+    transition: 0.8s ease-out;
+    border-radius: 10px;
+}
+
+.progressHTML:hover {
+    background-color: #FC6736;
+}
+
+.progressCSS {
+    width: 70%;
+    height: 1rem;
+    transition: 0.8s ease-out;
+    border-radius: 10px;
 }
