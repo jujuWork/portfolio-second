@@ -6,6 +6,12 @@
     to { scale: 1 1;}
 }
 
+/* HEADER */
+
+@keyframes fade-out {
+    to { opacity: 0;}
+}
+
 /* MAIN SKILLS */
 
 @keyframes fade-in {
