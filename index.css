@@ -184,6 +184,7 @@ header {
     margin: 150px auto;
     overflow: hidden;
     gap: 8px;
+    
 }
 
 /* PROFILE PIC */
@@ -214,9 +215,11 @@ header {
 
 /* MAIN */
 
-#SKills > .img {
-    animation: fade-in linear;
+main > #Skills {
+    scale: 0.8; opacity: 0;
+    animation: fade-in linear forwards;
     animation-timeline: view();
+    animation-range: entry 200px;
 }
 
 main {
