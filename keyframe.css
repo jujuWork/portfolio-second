@@ -1,4 +1,12 @@
-@keyframes fadeInLeft {
-    from {left:0;}
-    top {right:85%;}
+/* SCROLL WATCHER */
+
+@keyframes scroll-watch {
+    to { scale: 1 1;}
+}
+
+/* MAIN SKILLS */
+
+@keyframes fade-in {
+    from { scale: 0.8; opacity: 0;}
+    to { scale: 1; opacity: 1;}
 }

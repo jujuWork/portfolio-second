@@ -18,6 +18,23 @@ a {
     color: inherit;
 }
 
+/* SCROLL WATCHER */
+
+.scroll-watch {
+    border-radius: 20px;
+    height: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(79, 111, 82, 0.7);
+    width: 80%;
+    scale: 0 1;
+    transform-origin: left;
+    animation: scroll-watch linear;
+    animation-timeline: scroll();
+}
+
+
 /* NAVIGATION */
 
 nav {
@@ -25,7 +42,7 @@ nav {
     display: flex;
     gap: 2px;
     flex-wrap: nowrap;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 3px;
     overflow: hidden;
 }
@@ -197,6 +214,11 @@ header {
 
 /* MAIN */
 
+#SKills > .img {
+    animation: fade-in linear;
+    animation-timeline: view();
+}
+
 main {
     margin: 0 auto;
     background-color: rgba(134, 167, 137, 0.1);
@@ -250,23 +272,19 @@ main {
 .progressbar {
     border: 1px solid #4F6F52;
     border-radius: 10px;
-    border: none;
+    background-color: #4F6F52;
     width: 205px;
     margin: 5px auto;
     font-size: 0.75rem;
-    padding: 5px;
 }
 
+/*
 .progressHTML {
     width: 85%;
-    height: 1rem;
+    height: 0.5rem;
     transition: 0.8s ease-out;
     border-radius: 10px;
     animation: fadeInLeft 3s linear;
 }
 
-.progressHTML:hover {
-    background-color: #FC6736;
-    border-radius: 10px;
-    margin: 0;  
-}
+*/
