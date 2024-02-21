@@ -6,7 +6,7 @@
     to { scale: 1 1;}
 }
 
-/* HEADER */
+/* HEADER 
 
 header {
     animation: fade-out linear forwards;
@@ -19,7 +19,7 @@ header {
     }
 
 
-/* MAIN SKILLS */
+/* MAIN SKILLS 
 
 main > #Skills {
     scale: 0.8; opacity: 0;
@@ -27,6 +27,7 @@ main > #Skills {
     animation-timeline: view();
     animation-range: entry 100px;
 }
+
 
 @keyframes fade-in {
     to { scale: 1; opacity: 1;}

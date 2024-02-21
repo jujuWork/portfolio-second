@@ -7,8 +7,8 @@ html {
 }
 
 body {
-    width: 80%;
-    height: 100vh;
+    width: 80vw;
+    height: 100%;
     background-color: #F9F5F6;
     margin: 0 auto;
 }
@@ -123,7 +123,7 @@ header {
     align-items: flex-start;
     flex: 1;
     width: 100%;
-    height: 90vh;
+    height: 50vh;
     margin: 150px auto;
     overflow: hidden;
     gap: 8px;
@@ -188,12 +188,17 @@ main {
 
 .skill-container {
     border: 1px solid #4F6F52;
-    display: relative;
+    display: inline-block;
     text-align: center;
     width: 250px;
     height: 280px;
     border-radius: 30px;
     box-shadow: 3px 3px 3px #4F6F52 inset;
+    transition: 0.8s ease;
+}
+
+.skill-container:hover img {
+    transform: scale(1.5rem)
 }
 
 .skill-list h2 {
@@ -208,6 +213,7 @@ main {
     width: 200px;
     filter: drop-shadow(0 0 10px rgba(79, 111, 82, 0.6));
     letter-spacing: 0.25rem;
+    display: inline-block;
 }
 
 #javascript img {
@@ -221,4 +227,22 @@ main {
     width: 205px;
     margin: 5px auto;
     font-size: 0.75rem;
+}
+
+/* ASIDE PROJECTS */
+
+aside {
+    border: 1px solid red;
+    margin: 0 auto;
+    font-family: 'Space Grotesk', sans-serif;
+    width: 100%;
+    height: 80vh;
+}
+
+.project-logo {
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    color: #4F6F52;
+    margin: 10px 0 0 15px;
 }
