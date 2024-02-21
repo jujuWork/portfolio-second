@@ -1,6 +1,23 @@
 /* SCROLL ANIMATION */
 
-/* TOP SCROLL WATCHER */
+/* TOP SCROLL WATCHER 
+
+/* SCROLL WATCHER 
+
+.scroll-watch {
+    border-radius: 20px;
+    height: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(79, 111, 82, 0.7);
+    width: 80%;
+    scale: 0 1;
+    transform-origin: left;
+    animation: scroll-watch linear;
+    animation-timeline: scroll();
+}
+
 
 @keyframes scroll-watch {
     to { scale: 1 1;}
@@ -19,7 +36,7 @@ header {
     }
 
 
-/* MAIN SKILLS 
+/* MAIN SKILLS  
 
 main > #Skills {
     scale: 0.8; opacity: 0;
