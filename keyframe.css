@@ -1,8 +1,8 @@
 /* SCROLL ANIMATION */
 
-/* TOP SCROLL WATCHER 
+/* TOP SCROLL WATCHER */
 
-/* SCROLL WATCHER 
+/* SCROLL WATCHER */
 
 .scroll-watch {
     border-radius: 20px;
@@ -23,7 +23,7 @@
     to { scale: 1 1;}
 }
 
-/* HEADER 
+/* HEADER */
 
 header {
     animation: fade-out linear forwards;
@@ -36,7 +36,7 @@ header {
     }
 
 
-/* MAIN SKILLS  
+/* MAIN SKILLS  */
 
 main > #Skills {
     scale: 0.8; opacity: 0;
