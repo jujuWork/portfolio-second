@@ -184,11 +184,9 @@ header {
     margin: 150px auto;
     overflow: hidden;
     gap: 8px;
-
-    animation: fade-out linear forwards;
-    animation-timeline: view();
-    animation-range: exit -200px;
 }
+
+
 
 /* PROFILE PIC */
 .profile-pic {
@@ -218,20 +216,12 @@ header {
 
 /* MAIN */
 
-main > #Skills {
-    scale: 0.8; opacity: 0;
-    animation: fade-in linear forwards;
-    animation-timeline: view();
-    animation-range: entry 100px;
-}
-
 main {
+    border: 1px solid red;
     margin: 0 auto;
-    background-color: rgba(134, 167, 137, 0.1);
     font-family: 'Space Grotesk', sans-serif;
-    width: 70%;
+    width: 100%;
     height: 80vh;
-    border-radius: 10px;
 }
 
 .skill-logo {
@@ -240,6 +230,11 @@ main {
     letter-spacing: 0.2rem;
     color: #4F6F52;
     margin: 10px 0 0 15px;
+}
+
+.skill-container {
+    border: 1px solid red;
+    text-align: center;
 }
 
 .skill-list {
@@ -265,14 +260,11 @@ main {
     padding: 5px;
     width: 200px;
     filter: drop-shadow(0 0 10px rgba(79, 111, 82, 0.6));
+    letter-spacing: 0.25rem;
 }
 
 #javascript img {
     margin: 10px 0;
-}
-
-#javascript h2 {
-    margin: 0 auto;
 }
 
 .progressbar {
@@ -283,14 +275,3 @@ main {
     margin: 5px auto;
     font-size: 0.75rem;
 }
-
-/*
-.progressHTML {
-    width: 85%;
-    height: 0.5rem;
-    transition: 0.8s ease-out;
-    border-radius: 10px;
-    animation: fadeInLeft 3s linear;
-}
-
-*/
