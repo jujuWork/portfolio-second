@@ -8,18 +8,16 @@
 
 /* HEADER */
 
-@supports (animation-timeline: view()) {
-    .header {
-        animation: fade-out linear forwards;
-        animation-timeline: view();
-        animation-range: exit -200px;
-    }
+header {
+    animation: fade-out linear forwards;
+    animation-timeline: view();
+    animation-range: exit -100px;
 }
-
 
 @keyframes fade-out {
-    to { opacity: 0;}
-}
+        to { opacity: 0;}
+    }
+
 
 /* MAIN SKILLS */
 
