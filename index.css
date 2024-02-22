@@ -209,14 +209,19 @@ main {
     font-size: 0.75rem;
 }
 
-/* ASIDE PROJECTS */
+/* ASIDE ABOUT */
 
 aside {
-    border: 1px solid red;
+    border: 1px solid #739072;
     margin: 0 auto;
     font-family: 'Space Grotesk', sans-serif;
+    color: #163020;
     width: 70%;
     height: 80vh;
     padding: 5px 5px;
+    border-radius: 15px;
 }
 
+aside img {
+    width: 1.3rem;
+}
