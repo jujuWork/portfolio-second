@@ -1,3 +1,9 @@
+// ALERT
+
+alert ("Please use the latest Chrome to view the page");
+    
+
+
 //  DROPDOWN 
 
 function myFunction() {
