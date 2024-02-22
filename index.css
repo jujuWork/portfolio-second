@@ -215,14 +215,8 @@ aside {
     border: 1px solid red;
     margin: 0 auto;
     font-family: 'Space Grotesk', sans-serif;
-    width: 100%;
+    width: 70%;
     height: 80vh;
+    padding: 5px 5px;
 }
 
-.project-logo {
-    font-size: 1.3rem;
-    font-weight: 800;
-    letter-spacing: 0.2rem;
-    color: #4F6F52;
-    margin: 10px 0 0 15px;
-}
