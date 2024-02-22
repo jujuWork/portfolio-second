@@ -1,6 +1,7 @@
 // ALERT
 
 alert ("Please use the latest Chrome to view the page");
+alert ("Not yet Compatible with other browser");
     
 
 
