@@ -177,8 +177,13 @@ main {
     height: 280px;
     border-radius: 30px;
     box-shadow: 3px 3px 3px #4F6F52 inset;
+    position: relative;
+    transition: 1s;
 }
 
+.skill-container:hover {
+    transform: scale(1.5rem);
+}
 
 .skill-list h2 {
     text-align: center;
