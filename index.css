@@ -150,7 +150,9 @@ main {
     height: 100%;
 }
 
-.skill-logo, .tool-logo {
+/* SKILLS */
+
+.skill-logo {
     font-size: 1.3rem;
     font-weight: 800;
     letter-spacing: 0.2rem;
@@ -158,7 +160,7 @@ main {
     margin: 10px 0 0 15px;
 }
 
-.skill-list, .tool-list {
+.skill-list {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -170,7 +172,7 @@ main {
     margin: 50px auto;
 }
 
-.skill-container, .tool-container {
+.skill-container {
     border: 1px solid #4F6F52;
     display: inline-block;
     text-align: center;
@@ -181,7 +183,7 @@ main {
 }
 
 
-.skill-list h2, .tool-list h2 {
+.skill-list h2 {
     text-align: center;
     margin: 0 auto;
     letter-spacing: 1.5px;
@@ -200,6 +202,57 @@ main {
     margin: 10px 0;
 }
 
+/* TOOLS */
+
+.tool-logo {
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
+  color: #4F6F52;
+  margin: 10px 0 0 15px;
+}
+
+.tool-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 8px;
+    width: 100%;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.tool-container {
+    border: 1px solid #4F6F52;
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    height: 280px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px #4F6F52 inset;
+}
+
+.tool-list h2 {
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    color: #163020;
+    background-color: #F9F5F6;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+    filter: drop-shadow(0 0 10px rgba(79, 111, 82, 0.6));
+    letter-spacing: 0.25rem;
+    display: inline-block;
+}
+
+.tool-list img {
+    padding: 8px 0;
+}
+
 .bar {
     border: 1px solid #4F6F52;
     border-radius: 10px;
@@ -209,11 +262,13 @@ main {
     font-size: 0.75rem;
 }
 
+
+
 /* ASIDE ABOUT */
 
 aside {
     border: 1px solid #739072;
-    margin: 0 auto;
+    margin: 250px auto;
     font-family: 'Space Grotesk', sans-serif;
     color: #163020;
     width: 70%;
