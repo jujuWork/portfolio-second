@@ -208,6 +208,28 @@ main {
     animation: fadeInLeft 1.2s both;
 }
 
+.fadeInRightHeader {
+    -webkit-animation: fadeInRightHeader 2s both;
+    -moz-animation: fadeInRightHeader 2s both;
+    -o-animation: fadeInRightHeader 2s both;
+    animation: fadeInRightHeader 2s both;
+}
+
+.fadeInTop {
+    -webkit-animation: fadeInTop 1.2s both;
+    -moz-animation: fadeInTop 1.2s both;
+    -o-animation: fadeInTop 1.2s both;
+    animation: fadeInTop 1.2s both;
+}
+
+.fadeInRight {
+    -webkit-animation: fadeInRight 1.2s both;
+    -moz-animation: fadeInRight 1.2s both;
+    -o-animation: fadeInRight 1.2s both;
+    animation: fadeInRight 1.2s both;
+}
+
+
 
 /* TOOLS */
 
@@ -302,4 +324,22 @@ footer {
 
 #Contact {
     padding: 15px;
+}
+
+
+/* SAMPLE CONTAINER FOR ANIMATION 
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.animated {
+    border: 1px solid red;
+    width: 400px;
+    height: 221px;
+    background-position: center;
+    background-size: cover;
 }

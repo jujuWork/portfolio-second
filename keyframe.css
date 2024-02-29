@@ -2,7 +2,7 @@
 
 /* TOP SCROLL WATCHER */
 
-/* SCROLL WATCHER 
+/* SCROLL WATCHER */
 
 .scroll-watch {
     border-radius: 20px;
@@ -73,6 +73,8 @@ footer {
 
 /* FADE-ANIMATION KEYFRAMES */
 
+/* FADE IN LEFT */
+
 @-webkit-keyframes fadeInLeft {
     0% {
         opacity: 0;
@@ -83,6 +85,7 @@ footer {
         -webkit-transform: translateX(0); /* End point of the animation */
     }
 }
+
 @-moz-keyframes fadeInLeft {
     0% {
         opacity: 0;
@@ -93,6 +96,7 @@ footer {
         -moz-transform: translateX(0); /* End point of the animation */
     }
 }
+
 @-o-keyframes fadeInLeft {
     0% {
         opacity: 0;
@@ -103,10 +107,48 @@ footer {
         -o-transform: translateX(0); /* End point of the animation */
     }
 }
+
 @keyframes fadeInLeft {
     0% {
         opacity: 0;
         transform: translateX(-50px); /* Starting point of the animation */
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); /* End point of the animation */
+    }
+}
+
+/* FADE IN TOP */
+
+@keyframes fadeInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px); /* Starting point of the animation */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End point of the animation */
+    }
+}
+
+/* FADE IN RIGHT */
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateY(50px); /* Starting point of the animation */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End point of the animation */
+    }
+}
+
+@keyframes fadeInRightHeader {
+    0% {
+        opacity: 0;
+        transform: translateX(150px); /* Starting point of the animation */
     }
     100% {
         opacity: 1;

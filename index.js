@@ -4,18 +4,18 @@ alert ("Please use the latest Chrome to view the page") void;
 alert ("Not yet Compatible with other browser") void;
 
 
-// SKILL ANIMATION //
+// SKILL ANIMATION 
 
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if(entry.isIntersecting){
-            document.querySelectorAll(".skill-container")[0].classList.add("fadeInLeft")
-            document.querySelectorAll(".skill-container")[1].classList.add("fadeInTop")
-            document.querySelectorAll(".skill-container")[2].classList.add("fadeInRight")  
+            document.querySelectorAll(".animated")[0].classList.add("fadeInLeft");
+            document.querySelectorAll(".animated")[1].classList.add("fadeInTop");
+            document.querySelectorAll(".animated")[2].classList.add("fadeInRight");
         }
     })
 })
 
 //observer selector
 
-observer.observe(document.querySelector(".skill-list"));       
+observer.observe(document.querySelector(".container"));       
