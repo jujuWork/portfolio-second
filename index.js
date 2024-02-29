@@ -9,13 +9,13 @@ alert ("Not yet Compatible with other browser") void;
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if(entry.isIntersecting){
-            document.querySelectorAll(".animated")[0].classList.add("fadeInLeft");
-            document.querySelectorAll(".animated")[1].classList.add("fadeInTop");
-            document.querySelectorAll(".animated")[2].classList.add("fadeInRight");
+            document.querySelectorAll(".skill-container")[0].classList.add("fadeInLeft");
+            document.querySelectorAll(".skill-container")[1].classList.add("fadeInTop");
+            document.querySelectorAll(".skill-container")[2].classList.add("fadeInRight");
         }
     })
 })
 
 //observer selector
 
-observer.observe(document.querySelector(".container"));       
+observer.observe(document.querySelector("#Skills"));       
