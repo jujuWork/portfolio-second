@@ -1,27 +1,21 @@
 // ALERT
 
-alert ("Please use the latest Chrome to view the page");
-alert ("Not yet Compatible with other browser");
-    
+alert ("Please use the latest Chrome to view the page") void;
+alert ("Not yet Compatible with other browser") void;
 
 
-//  DROPDOWN 
+// SKILL ANIMATION //
 
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-        let dropdowns = document.getElementsByClassName("dropdown-content");
-        let i;
-        for (i = 0; i < dropdowns.length; i++) {
-            let openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-            }
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            document.querySelectorAll(".skill-container")[0].classList.add("fadeInLeft")
+            document.querySelectorAll(".skill-container")[1].classList.add("fadeInTop")
+            document.querySelectorAll(".skill-container")[2].classList.add("fadeInRight")  
         }
-    }
-}
+    })
+})
 
-//
+//observer selector
+
+observer.observe(document.querySelector(".skill-list"));       

@@ -178,11 +178,6 @@ main {
     border-radius: 30px;
     box-shadow: 3px 3px 3px #4F6F52 inset;
     position: relative;
-    transition: 1s;
-}
-
-.skill-container:hover {
-    transform: scale(1.5rem);
 }
 
 .skill-list h2 {
@@ -203,6 +198,16 @@ main {
 #javascript img {
     margin: 10px 0;
 }
+
+/* FADE ANIMATION */
+
+.fadeInLeft {
+    -webkit-animation: fadeInLeft 1.2s both;
+    -moz-animation: fadeInLeft 1.2s both;
+    -o-animation: fadeInLeft 1.2s both;
+    animation: fadeInLeft 1.2s both;
+}
+
 
 /* TOOLS */
 
