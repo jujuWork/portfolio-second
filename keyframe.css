@@ -51,11 +51,11 @@ main > #Skills {
 }
 
 
-/* ASIDE 
+/* ASIDE */
 
 aside {
-    scale: 0.8; opacity: 0;
-    animation: fade-in linear forwards;
+    opacity: 0;
+    animation: fadeInLeft linear forwards;
     animation-timeline: view();
     animation-range: entry 100px;
 }
