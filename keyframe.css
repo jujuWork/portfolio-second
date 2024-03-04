@@ -70,6 +70,16 @@ aside {
 }
 
 
+/* FOOTER */
+
+footer {
+    opacity: 0;
+    animation: fadeInCenter linear forwards;
+    animation-timeline: view();
+    animation-range: entry -50px;
+}
+
+
 /* FADE-ANIMATION KEYFRAMES */
 
 /* FADE IN LEFT */
