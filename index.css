@@ -201,10 +201,10 @@ main {
 /* FADE ANIMATION */
 
 .fadeInLeft {
-    -webkit-animation: fadeInLeft 1.2s both;
-    -moz-animation: fadeInLeft 1.2s both;
-    -o-animation: fadeInLeft 1.2s both;
-    animation: fadeInLeft 1.2s both;
+    -webkit-animation: fadeInLeft 3s both;
+    -moz-animation: fadeInLeft 3s both;
+    -o-animation: fadeInLeft 3s both;
+    animation: fadeInLeft 3s both;
 }
 
 .fadeInLeftHeader {

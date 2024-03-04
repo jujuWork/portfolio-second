@@ -110,7 +110,7 @@ aside {
 @keyframes fadeInLeft {
     0% {
         opacity: 0;
-        transform: translateX(-10px); /* Starting point of the animation */
+        transform: translateX(-100px); /* Starting point of the animation */
     }
     100% {
         opacity: 1;
