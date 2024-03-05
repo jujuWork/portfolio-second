@@ -168,7 +168,7 @@ main {
 
 }
 
-.skill-container {
+.skillContainer {
     border: 1px solid #4F6F52;
     display: inline-block;
     text-align: center;
@@ -339,4 +339,13 @@ footer {
 
 #Contact {
     padding: 15px;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
 }
