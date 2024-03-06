@@ -16,5 +16,5 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 
-const hiddenElements = document.querySelectorAll('.skillContainer'); // selecting all the classlist to be animated
-hiddenElements.forEach((el) => observer.observe(el));
+const skillContainerElements = document.querySelectorAll('.skillContainer'); // selecting all the classlist to be animated
+skillContainerElements.forEach((el) => observer.observe(el));

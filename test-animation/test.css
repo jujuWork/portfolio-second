@@ -2,17 +2,30 @@ body {
     background-color: black;
     color: white;
     width: 99%;
-
+    margin: 0 auto;
+    padding: 0;
 }
 
 section {
     width: 350px;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
-    border: 1px solid red;
+    display: grid;
+    place-items: center;
+    align-content: center; 
     margin: 0 auto;
 }
 
-.test-skill {
-    margin: 0 auto;
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+    
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }
