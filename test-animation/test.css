@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    color: white;
+    width: 99%;
+
+}
+
+section {
+    width: 350px;
+    height: 100vh;
+    text-align: center;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.test-skill {
+    margin: 0 auto;
+}
