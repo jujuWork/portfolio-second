@@ -1,5 +1,5 @@
-alert('Please use the latest google chrome browser');
-alert('Browser compatability issue');
+//alert('Please use the latest google chrome browser');
+//alert('Browser compatability issue');
 
 
 // SCROLL ANIMATION
@@ -11,7 +11,7 @@ const observer = new IntersectionObserver((entries) => {
             entry.target.classList.add('show'); //if tis intersecting will add a class show, if only once animated you can stop here!!
         } else {
             entry.target.classList.remove('show'); // removing the animation if is intersecting
-            }
+        }
     });
 });
 

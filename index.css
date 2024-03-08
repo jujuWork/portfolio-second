@@ -341,10 +341,11 @@ footer {
     padding: 15px;
 }
 
-.hidden {
+/*
+.skillContainer {
     opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-100%);
+    filter: blur(1px);
+    transform: translateX(-50%);
 }
 
 .show {
