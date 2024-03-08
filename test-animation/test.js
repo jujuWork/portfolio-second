@@ -10,5 +10,5 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 
-const hiddenElements = document.querySelectorAll('.hidden'); // SELECTING ALL HIDDEN CLASS ELEMENTS
-hiddenElements.forEach((el) => observer.observe(el)); // OBSERVING ALL HIDDEN ELEMENTS
+const animateElements = document.querySelectorAll('.animate'); // SELECTING ALL HIDDEN CLASS ELEMENTS
+animateElements.forEach((el) => observer.observe(el)); // OBSERVING ALL HIDDEN ELEMENTS
