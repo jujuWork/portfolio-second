@@ -302,14 +302,27 @@ footer {
     margin: 150px 0 0 0;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
 
 #Contact {
     padding: 15px;
+    height: 100%;
 }
 
+.socialMedia {
+    border: 1px solid red;
+    padding: 15px;
+    height: 100%;
+}
+
+.socialMedia li {
+    list-style: none;
+}
+
+/* ANIMATION */
 
 .animateX {
     opacity: 0;
