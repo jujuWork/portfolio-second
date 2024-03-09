@@ -198,54 +198,6 @@ main {
     margin: 10px 0;
 }
 
-/* FADE ANIMATION */
-
-.fadeInLeft {
-    -webkit-animation: fadeInLeft 3s both;
-    -moz-animation: fadeInLeft 3s both;
-    -o-animation: fadeInLeft 3s both;
-    animation: fadeInLeft 3s both;
-}
-
-.fadeInLeftHeader {
-    -webkit-animation: fadeInLeftHeader 1.2s both;
-    -moz-animation: fadeInLeftHeader 1.2s both;
-    -o-animation: fadeInLeftHeader 1.2s both;
-    animation: fadeInLeftHeader 1.2s both;
-}
-
-.fadeInTop {
-    -webkit-animation: fadeInTop 1.2s both;
-    -moz-animation: fadeInTop 1.2s both;
-    -o-animation: fadeInTop 1.2s both;
-    animation: fadeInTop 1.2s both;
-}
-
-.fadeInRight {
-    -webkit-animation: fadeInRight 1.2s both;
-    -moz-animation: fadeInRight 1.2s both;
-    -o-animation: fadeInRight 1.2s both;
-    animation: fadeInRight 1.2s both;
-}
-
-.fadeInRightHeader {
-    -webkit-animation: fadeInRightHeader 2.5s both;
-    -moz-animation: fadeInRightHeader 2.5s both;
-    -o-animation: fadeInRightHeader 2.5s both;
-    animation: fadeInRightHeader 2.5s both;
-}
-
-.fadeInCenter {
-    -webkit-animation: fadeInLeft 1.2s both;
-    -moz-animation: fadeInLeft 1.2s both;
-    -o-animation: fadeInLeft 1.2s both;
-    animation: fadeInLeft 1.2s both;
-}
-
-
-
-
-
 /* TOOLS */
 
 .tool-logo {
@@ -341,11 +293,12 @@ footer {
     padding: 15px;
 }
 
-/*
-.skillContainer {
+
+.animate {
     opacity: 0;
     filter: blur(1px);
-    transform: translateX(-50%);
+    transform: translateX(-100%);
+    transition: all 2s;
 }
 
 .show {
