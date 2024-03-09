@@ -1,3 +1,12 @@
+/* REDUCE MOTION */
+
+@media(prefer-reduce-motion) {
+    .animate {
+        transition: none;
+    }
+}
+
+
 @media only screen and (min-width: 1200px) {
     body {
         width: 1200px;

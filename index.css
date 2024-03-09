@@ -162,9 +162,9 @@ main {
 .skill-list {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 1.5rem;
 
 }
 
@@ -177,6 +177,16 @@ main {
     border-radius: 30px;
     box-shadow: 3px 3px 3px #4F6F52 inset;
     position: relative;
+}
+
+.skillContainer:nth-child(2) {
+    transition-delay: 200ms;
+}
+.skillContainer:nth-child(3) {
+    transition-delay: 400ms;
+}
+.skillContainer:nth-child(4) {
+    transition-delay: 600ms;
 }
 
 .skill-list h2 {
@@ -211,12 +221,12 @@ main {
 .tool-list {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 1.5rem;
 }
 
-.tool-container {
+.toolContainer {
     border: 1px solid #4F6F52;
     display: inline-block;
     text-align: center;
@@ -224,6 +234,13 @@ main {
     height: 280px;
     border-radius: 30px;
     box-shadow: 3px 3px 3px #4F6F52 inset;
+}
+
+.toolContainer:nth-child(2) {
+    transition-delay: 200ms;
+}
+.toolContainer:nth-child(3) {
+    transition-delay: 400ms;
 }
 
 .tool-list h2 {
@@ -294,11 +311,25 @@ footer {
 }
 
 
-.animate {
+.animateX {
     opacity: 0;
-    filter: blur(1px);
-    transform: translateX(-100%);
-    transition: all 2s;
+    filter: blur(5px);
+    transform: translateX(-30%);
+    transition: linear 0.5s;
+}
+
+.animateY {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-30%);
+    transition: linear 0.5s;
+}
+
+.animateZ {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(30%);
+    transition: linear 0.5s;
 }
 
 .show {

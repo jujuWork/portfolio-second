@@ -2,7 +2,7 @@
 //alert('Browser compatability issue');
 
 
-// SCROLL ANIMATION
+// SCROLL ANIMATION X
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {    // MULTIPLE ENTRIES
@@ -16,5 +16,11 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 
-const animateElements = document.querySelectorAll('.animate'); // SELECTING ALL HIDDEN CLASS ELEMENTS
-animateElements.forEach((el) => observer.observe(el)); // OBSERVING ALL HIDDEN ELEMENTS
+const animateXElements = document.querySelectorAll('.animateX'); // SELECTING ALL HIDDEN CLASS ELEMENTS
+animateXElements.forEach((el) => observer.observe(el)); // OBSERVING ALL HIDDEN ELEMENTS
+
+const animateYElements = document.querySelectorAll('.animateY'); 
+animateYElements.forEach((el) => observer.observe(el));
+
+const animateZElements = document.querySelectorAll('.animateZ'); 
+animateZElements.forEach((el) => observer.observe(el));
