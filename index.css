@@ -310,17 +310,23 @@ footer {
 #Contact {
     padding: 15px;
     height: 100%;
+    width: 50%;
 }
 
 .socialMedia {
     border: 1px solid red;
-    padding: 15px;
     height: 100%;
+    width: 47%;
+    margin: 15px 0;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 
-.socialMedia li {
-    list-style: none;
-}
+
+
+
 
 /* ANIMATION */
 
