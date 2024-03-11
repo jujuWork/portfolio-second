@@ -145,11 +145,28 @@ header {
 main {
     margin: 0 auto;
     font-family: 'Space Grotesk', sans-serif;
-    width: 70%;
+    width: 90%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* SKILLS */
+
+.UP {
+    height: 100%;
+}
+
+.UP img {
+    object-fit: cover;
+    filter: drop-shadow(0 0 5px #4F6F52);
+}
+
+.skills {
+    width: 100%;
+    margin: 0 100px;
+}
 
 .skill-logo {
     font-size: 1.3rem;
@@ -165,7 +182,6 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
-
 }
 
 .skillContainer {
