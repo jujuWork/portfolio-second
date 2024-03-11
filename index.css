@@ -314,14 +314,18 @@ footer {
 }
 
 .socialMedia {
-    border: 1px solid red;
     height: 100%;
     width: 47%;
     margin: 15px 0;
     padding: 15px 0;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.socialMedia a {
+    margin: 5px;
 }
 
 
