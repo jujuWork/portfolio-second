@@ -145,7 +145,7 @@ header {
 main {
     margin: 0 auto;
     font-family: 'Space Grotesk', sans-serif;
-    width: 100%;
+    width: 70%;
     height: 100%;
 }
 
@@ -178,7 +178,7 @@ main {
     border: none;
     outline: none;
     border-radius: 10px;
-    transition: 0.5s linear;
+    transition: 0.3s linear;
     padding: 5px 5px;
 }
 
@@ -258,7 +258,7 @@ main {
     border: none;
     outline: none;
     border-radius: 10px;
-    transition: 0.5s linear;
+    transition: 0.3s linear;
     padding: 5px 5px;
 }
 
