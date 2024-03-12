@@ -24,3 +24,6 @@ animateYElements.forEach((el) => observer.observe(el));
 
 const animateZElements = document.querySelectorAll('.animateZ'); 
 animateZElements.forEach((el) => observer.observe(el));
+
+const animate0Elements = document.querySelectorAll('.animate0'); 
+animate0Elements.forEach((el) => observer.observe(el));

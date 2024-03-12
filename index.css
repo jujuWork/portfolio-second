@@ -211,7 +211,7 @@ main {
     box-shadow: 0 0 8px #4F6F52;
 }
 
-.skill-list button {
+.skill-list span {
     width: 100%;
     font-size: 1.5rem;
     font-weight: 600;
@@ -291,7 +291,7 @@ main {
     box-shadow: 0 0 8px #4F6F52;
 }
 
-.tool-list button {
+.tool-list span {
     width: 100%;
     font-size: 1.5rem;
     font-weight: 600;
@@ -394,6 +394,13 @@ footer {
     filter: blur(5px);
     transform: translateX(30%);
     transition: linear 0.5s;
+}
+
+.animate0 {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(0);
+    transition: linear 1s;
 }
 
 .show {
